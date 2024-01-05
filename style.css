@@ -48,3 +48,24 @@ header p {
 }
 
 /* form */
+main h2 {
+  padding: 50px 275px;
+  border-radius: 20px 20px 0px 0px;
+  background: #f67669;
+
+  color: #fff;
+  font-family: "Staatliches", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+form {
+  padding: 30px 64px 64px;
+  border-radius: 0px 0px 20px 20px;
+  background: #fff;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
