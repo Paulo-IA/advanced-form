@@ -67,5 +67,80 @@ form {
 
   display: flex;
   flex-direction: column;
+  gap: 60px;
+}
+
+.form-fields {
+  display: flex;
+  flex-direction: column;
   gap: 30px;
+}
+
+fieldset {
+  border: 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+fieldset legend {
+  width: 100%;
+
+  color: #253b51;
+  font-family: Staatliches;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+
+  border-bottom: 1px solid #e6e6f0;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+fieldset .multiple-inputs {
+  display: flex;
+  gap: 20px;
+}
+
+fieldset .input-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input-wrapper label {
+  color: #4e4958;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.input-wrapper span {
+  color: #c1bccc;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+
+  margin-left: 10px;
+}
+.input-wrapper span:hover {
+  color: #4e4958;
+}
+
+.input-wrapper input {
+  height: 55px;
+  border-radius: 8px;
+  border: 1px solid #e6e6f0;
+  background: #fafafc;
+
+  padding: 0 15px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
 }

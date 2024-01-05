@@ -30,7 +30,38 @@
 
       <h2>Informações pessoais</h2>
       <form>
-        <fieldset></fieldset>
+        <div class="form-fields">
+          <fieldset>
+            <div class="multiple-inputs">
+              <div class="input-wrapper">
+                <label for="user-name">Nome</label>
+                <input type="text" id="user-name" />
+              </div>
+
+              <div class="input-wrapper">
+                <label for="user-surname">Sobrenome</label>
+                <input type="text" id="user-surname" />
+              </div>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="user-email"
+                >Email <span>(digite um email válido)</span></label
+              >
+              <input type="text" id="user-email" />
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Informações do mentor</legend>
+          </fieldset>
+
+          <fieldset>
+            <legend>Agendando próxima mentoria</legend>
+          </fieldset>
+        </div>
+
+        <button>Enviar</button>
       </form>
     </main>
   </body>
