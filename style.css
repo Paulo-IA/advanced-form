@@ -102,7 +102,6 @@ fieldset legend {
 
 fieldset .multiple-inputs {
   display: flex;
-  gap: 20px;
 }
 
 fieldset .input-wrapper {
@@ -139,7 +138,15 @@ fieldset .input-wrapper {
   height: 55px;
 }
 
-.mentor-info {
+.gap-1 {
+  gap: 10px;
+}
+
+.gap-2 {
+  gap: 20px;
+}
+
+.gap-3 {
   gap: 30px;
 }
 
@@ -205,4 +212,25 @@ fieldset .input-wrapper {
   height: 165px;
 }
 
-/* date */
+.input-wrapper input[type="date"] {
+  width: 300px;
+}
+
+.input-wrapper input[type="time"] {
+  width: 140px;
+}
+
+form button {
+  padding: 15px 40px;
+  border-radius: 8px;
+  background: #f67669;
+  border: none;
+
+  color: #fff;
+  font-family: "Staatliches", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+
+  cursor: pointer;
+}
